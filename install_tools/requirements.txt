@@ -1,0 +1,8 @@
+ipykernel==6.29
+numpy==1.26
+matplotlib==3.9
+opencv-python==4.10.0.84
+albumentations==2.0.1
+pre-commit==3.8
+black==24.8
+flake8==7.1

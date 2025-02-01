@@ -1,0 +1,36 @@
+img_dir: data/leftImg8bit
+gt_dir: data/gtFine_trainvaltest/gtFine
+mode: train
+batch_size: 8
+visualize: False
+benchmark: True
+augmentation:
+  - type: crop_and_resize
+    params:
+      height: 1024
+      width: 1024
+      p: 1
+  - type: resize
+    params:
+      height: 512
+      width: 512
+      p: 1
+  - type: horizontal_flip
+    params:
+      p: 0.5
+  - type: vertical_flip
+    params:
+      p: 0.5
+  - type: blur
+    params:
+      blur_limit: 5
+      sigma_limit: 2
+      p: 0.5
+  - type: brightness
+    params:
+      brightness_limit: 0.2
+      p: 0.5
+  - type: contrast
+    params:
+      contrast_limit: 0.2
+      p: 0.5
