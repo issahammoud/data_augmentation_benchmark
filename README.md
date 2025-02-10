@@ -6,6 +6,8 @@
 
 This repository benchmarks TensorFlow dataset creation strategies and [Albumentations](https://albumentations.ai/) augmentations using the [Cityscapes](https://www.cityscapes-dataset.com/) dataset. It features an extensible architecture for vision project datasets (see class diagram below) and serves as supplemental material for the semantic segmentation hands-on of the [Intuitive Deep Learning](https://intuitive-dl.thinkific.com/courses/intuitive-dl) course.
 
+In addition, I wrote a Medium article to explain the code. Check it [here](https://medium.com/@intuitivedl/a-story-of-clean-code-an-ml-use-case-0287cde363fe).
+
 
 ## 🛠 Setup Guide
 
